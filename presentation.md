@@ -1,7 +1,7 @@
 Perlin Noise Manipulation
 ========================================================
 author: Luc Libralesso
-date: Wed Aug 20 12:06:24 2014
+date: Wed Aug 20 12:35:17 2014
 transition: fade
 
 What is 'Perlin Noise Manipulation' application ?
@@ -41,7 +41,7 @@ Let's see what does it looks like for Sky theme:
 point : Interpolation Method
 ========================================================
 
-We can use $3$ types of interpolation.
+We can use 3 types of interpolation.
 
 We can see them on the following plot :
 
