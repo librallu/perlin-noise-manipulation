@@ -7,6 +7,7 @@ In the web version, the application use a 50x50 image for the output. Perlin
 algorithm can do better, but it's faster for an online version.
 
 An online version is available on shinyapps.io : http://librallu.shinyapps.io/someNoise/
+Presentation is available on rpubs : http://rpubs.com/librallu/25298/
 
 Interactions
 ============
