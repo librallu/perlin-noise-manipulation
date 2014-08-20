@@ -12,7 +12,7 @@ Interactions
 ============
 
 User can change :
- - noise impact : adds noise to the output
+ - Persistence : adds noise to the output
  - subspace length : Choose the peak frequency
  - color theme : [Black and White, Sky, Fire] Change output color theme
  - interpolation method : [linear, sinusoidal, quadratic] linear and sinusoidal are simplier but quadratic method has better rendering.

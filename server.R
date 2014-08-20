@@ -16,7 +16,7 @@ shinyServer(function(input, output, session) {
     subspace <- input$subspace
     choice <- input$choice
     method <- input$method
-    pic <- noise(50,50,subspace,mul,choice,method)
+    pic <- noise(100,100,subspace,mul,choice,method)
     # Writing image
     writePNG(pic, target = outfile)
     
@@ -138,6 +138,5 @@ perlin <- function(n,w,h,method){
     xs <- seq(from=1, to=n, length=w+1)[-(w+1)]
     ys <- seq(from=1, to=n, length=h+1)[-(h+1)]
     outer(xs,ys,Vectorize(noise2d))
-
 }
 

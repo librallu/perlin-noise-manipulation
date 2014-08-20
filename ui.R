@@ -1,7 +1,7 @@
 shinyUI(pageWithSidebar(
-  headerPanel("Perlin Noise Exemples"),
+  headerPanel("Perlin Noise Manipulation"),
   sidebarPanel(
-    sliderInput("mul", "Noise Impact :", min = 0., max = 1., value = 0.7, step = 0.05),
+    sliderInput("mul", "Persistence :", min = 0., max = 1., value = 0.7, step = 0.05),
     sliderInput("subspace", "Subspace Length :", min=2,max=20,value=5,step=1),
     br(),
     radioButtons("choice", label="Color Theme", list("Black and White"=1, "Sky"=2,"Fire"=3), selected=1),
@@ -12,13 +12,13 @@ shinyUI(pageWithSidebar(
     HTML("
          <p>Hi ! The algorithm used in this application is called the Perlin Noise, it was designed by 
             <strong>Ken Perlin</strong>.
-         He designed it for making better textures for film Tron.</p>
-         <p>With this application, you can create your own textures or world. Please move some parameters
+         He designed it for making better textures for the film Tron.</p>
+         <p>With this application, you can create your own textures. Please move some parameters
       to see how the image behaves.</p>
 
       <p>User can change :
       <ul>
-        <li><strong>noise impact :</strong> adds noise to the output</li>
+        <li><strong>Persistence :</strong> adds noise to the output</li>
         <li><strong>subspace length :</strong> Choose the peak frequency</li>
         <li><strong>color theme :</strong> [Black and White, Sky, Fire] Change output color theme</li>
         <li><strong>interpolation method :</strong> [linear, sinusoidal, quadratic] linear and sinusoidal are 
